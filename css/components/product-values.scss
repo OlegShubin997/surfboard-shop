@@ -1,0 +1,34 @@
+.product__values {
+    width: 100%;
+    margin-bottom: rem(25px);
+
+    @include tablets {
+        margin: auto;
+    }
+
+    @include phones {
+        margin-bottom: 20px;
+    }
+}
+
+.product__values-items {
+    margin: 0;
+}
+
+.product__values-price {
+    font-size: 60px;
+    color: #000;
+    min-width: rem(157px);
+}
+
+.product__values-items-two {
+    font-weight: bold;
+    color: #000;
+}
+
+.product__values-items-three {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}

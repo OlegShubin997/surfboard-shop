@@ -1,0 +1,17 @@
+.hero__icon-section {
+    @include tablets {
+        display: none;
+    }
+}
+
+.features {
+    display: flex;
+}
+
+.features__item {
+    margin-right: rem(34px);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

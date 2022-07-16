@@ -1,0 +1,15 @@
+.order-section {
+    background: url('../image/background-form.jpg') top center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: rem(650px);
+}
+
+.order-section__title {
+    text-align: center;
+    font-size: rem(48px);
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: rem(60px);
+}

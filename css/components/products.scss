@@ -1,0 +1,88 @@
+.product__image-bg {
+    background: url("/image/background-slider-surf.png") center center no-repeat;
+    background-size: contain;
+}
+
+.products-section {
+    background: #F8FAF9;
+}
+
+.product__col {
+    max-width: rem(420px);
+    max-height: rem(540px);
+    margin-right: 6%;
+
+    @include tablets {
+        max-width: rem(318px);
+        max-height: rem(418px);
+        margin-right: 0;
+    }
+
+    @include phones {
+        margin-bottom: 35px;
+    }
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product__info {
+    width: 40%;
+
+    @include tablets {
+        min-width: rem(476px);
+        text-align: center;
+    }
+
+    @include phones {
+        min-width: rem(380px);
+        text-align: center;
+    }    
+}
+
+.products-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .bx-wrapper {
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    @include tablets {
+        max-width: rem(519px);
+        margin: auto;
+        justify-content: center;
+        align-items: inherit;
+    }
+}
+
+.product__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include tablets {
+        flex-direction: column;
+        margin-top: 15%;
+    }
+}
+
+
+
+.product__title {
+    margin-bottom: rem(25px);
+    text-transform: uppercase;
+    font-size: rem(36px);
+    font-weight: bold;
+    color: #000;
+}
+
+.product__text {
+    margin-bottom: rem(25px);
+}
+

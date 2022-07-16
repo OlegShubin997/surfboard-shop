@@ -1,0 +1,14 @@
+.products-slider__arrows {
+    min-width: rem(14px);
+    height: rem(28px);
+
+    @include tablets {
+        margin: 0 auto;
+        padding-top: 55%;
+    }
+
+    @include phones {
+        margin: 0 auto;
+        padding-top: 60%;
+    }
+}

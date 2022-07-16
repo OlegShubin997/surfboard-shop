@@ -1,0 +1,40 @@
+.fullscreen-menu {
+    background: rgba(31, 31, 31, 0.8);
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+    top: 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+.menu--vertical {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+
+    .menu__list {
+        flex-direction: column;
+
+    }
+
+    .menu__item {
+        margin-right: 0;
+        margin-bottom: rem(20px);
+    }
+
+    .menu__link {
+        font-size: rem(36px)
+    }
+}
+
+.fullscreen-menu__close {
+    display: block;
+    width: rem(20px);
+    height: rem(20px);
+    margin-inline: auto 6%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}

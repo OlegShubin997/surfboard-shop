@@ -1,0 +1,31 @@
+.btn {
+    border: rem(1px) solid #FEDB3F;
+    border-radius: rem(100px);
+    background-color: #FEDB3F;
+    padding: rem(21px) rem(41px);
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: rem(16px);
+    cursor: pointer;
+
+    &:hover {
+        border: rem(1px) solid #FFD517;
+        background-color: #FFD517;
+    }
+
+    &--reset {
+        background: transparent;
+        border: transparent;
+        text-transform: none;
+        font-weight: 300;
+        color: #FFF;
+
+        &:hover{
+            background: transparent;
+            border: 0;
+            color: #FEDB3F;
+        }
+    }
+}
